@@ -1,0 +1,38 @@
+
+
+.footer-contents{
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-left: 5em;
+    padding-right: 5em;
+    /* width: 85%;
+    margin:auto;
+    overflow: auto; */
+    color: blue;
+
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+.footer-information{
+    width:25%;
+    
+   
+    /* float: left;
+    margin-right: 10%; */
+    
+  }
+
+  .icons img {
+    display: block;
+    width: 150px;
+    height: 30px;
+    /* margin: auto; */
+}
+
+.link .p-1{
+    margin-bottom: 10px;
+}
+
+  

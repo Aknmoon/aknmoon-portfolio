@@ -1,0 +1,607 @@
+h1,h2,h3,h4,h5,h6,span,p{
+    font-family: serif;
+}
+
+/* chair */
+.iloom-chair-header {
+    margin-top: 30px;
+    text-align: center;
+}
+.iloom-chair-header span {
+    color: #c7a17a;
+    font-style: italic;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+.iloom-chair-header h2 {
+    color: #312a26;
+    text-transform: uppercase;
+}
+.iloom-chair-header hr {
+    height: 2px;
+    width: 25%;
+    background-color: #c7a17a;
+    margin: auto;
+}
+.iloom-chair {
+    width: 85%;
+    margin: auto;
+    overflow: auto;
+}
+.iloom-chair-items {
+    width: 24.25%;
+    float: left;
+    margin-right: 1%;
+    margin-bottom: 1%;
+}
+.iloom-chair-items img{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+.iloom-chair-items:nth-child(4),
+.iloom-chair-items:nth-child(8) {
+    margin-right: 0;
+}
+.iloom-chair-gallery {
+    margin-top: 2em;
+    overflow: auto;
+}
+.iloom-chair-items a{
+    color: #312a26;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+
+
+
+/* bed */
+.iloom-bed-header {
+    margin-top: 30px;
+    text-align: center;
+}
+.iloom-bed-header span {
+    color: #c7a17a;
+    font-style: italic;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+.iloom-bed-header h2 {
+    color: #312a26;
+    text-transform: uppercase;
+}
+.iloom-bed-header hr {
+    height: 2px;
+    width: 25%;
+    background-color: #c7a17a;
+    margin: auto;
+}
+.iloom-bed {
+    width: 85%;
+    margin: auto;
+    overflow: auto;
+}
+.iloom-bed-items {
+    width: 24.25%;
+    float: left;
+    margin-right: 1%;
+    margin-bottom: 1%;
+}
+.iloom-bed-items img{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+.iloom-bed-items:nth-child(4n+0)
+{
+    margin-right: 0;
+}
+.iloom-bed-gallery {
+    margin-top: 2em;
+    overflow: auto;
+    
+}
+.iloom-bed-items a{
+    color: #312a26;
+    text-decoration: none;
+    margin-top: 5px;
+}
+
+
+
+
+
+/* Bath */
+.iloom-bath-header {
+    margin-top: 30px;
+    text-align: center;
+}
+.iloom-bath-header span {
+    color: #c7a17a;
+    font-style: italic;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+.iloom-bath-header h2 {
+    color: #312a26;
+    text-transform: uppercase;
+}
+.iloom-bath-header hr {
+    height: 2px;
+    width: 25%;
+    background-color: #c7a17a;
+    margin: auto;
+}
+.iloom-bath {
+    /* width: 85%; */
+    width: 80%;
+    margin: auto;
+    overflow: auto;
+    
+}
+.iloom-bath-items {
+    /* width: 24.25%; */
+    float: left;
+    margin-right: 7%;
+    margin-bottom: 1%;
+    /* display: flex;
+    justify-content: space-between; */
+
+}
+.iloom-bath-items .iloom-bath-image1{
+    width: 320px;
+    height: auto;
+    object-fit: cover;
+}
+
+.iloom-bath-items .iloom-bath-image2{
+    margin-top: 70px;
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+.iloom-bath-gallery {
+    margin-top: 2em;
+    overflow: auto;
+}
+
+.iloom-bath-items a{
+    color: #312a26;
+    text-decoration: underline;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+/*  iloom-couch-gallery2 */
+
+.iloom-bath-gallery2 .iloom-bath-items {
+    /* width: 24.25%; */
+    width: 45%;
+    float: left;
+    margin-right: 5%;
+    margin-bottom: 1%;
+
+
+    margin-top: 2em;
+    overflow: auto;
+}
+
+.iloom-bath-gallery2 .iloom-bath-items img{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+
+
+
+
+/* LAMP */
+.iloom-lamp-header {
+    margin-top: 30px;
+    text-align: center;
+}
+.iloom-lamp-header span {
+    color: #c7a17a;
+    font-style: italic;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+.iloom-lamp-header h2 {
+    color: #312a26;
+    text-transform: uppercase;
+}
+.iloom-lamp-header hr {
+    height: 2px;
+    width: 25%;
+    background-color: #c7a17a;
+    margin: auto;
+}
+.iloom-lamp {
+    width: 85%;
+    margin: auto;
+    overflow: auto;
+}
+.iloom-lamp-items {
+    width: 24.25%;
+    float: left;
+    margin-right: 1%;
+    margin-bottom: 1%;
+}
+.iloom-lamp-items img{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+.iloom-lamp-items:nth-child(4),
+.iloom-lamp-items:nth-child(8) {
+    margin-right: 0;
+}
+.iloom-lamp-gallery {
+    margin-top: 2em;
+    overflow: auto;
+}
+.iloom-lamp-items a{
+    color: #312a26;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+/* couch */
+
+.iloom-couch-header {
+    margin-top: 30px;
+    text-align: center;
+}
+.iloom-couch-header span {
+    color: #c7a17a;
+    font-style: italic;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+.iloom-couch-header h2 {
+    color: #312a26;
+    text-transform: uppercase;
+}
+.iloom-couch-header hr {
+    height: 2px;
+    width: 25%;
+    background-color: #c7a17a;
+    margin: auto;
+}
+.iloom-couch {
+    /* width: 85%; */
+    width: 80%;
+    margin: auto;
+    overflow: auto;
+    
+}
+.iloom-couch-items {
+    /* width: 24.25%; */
+    float: left;
+    margin-right: 7%;
+    margin-bottom: 1%;
+    /* display: flex;
+    justify-content: space-between; */
+
+}
+.iloom-couch-items .iloom-couch-image1{
+    width: 320px;
+    height: auto;
+    object-fit: cover;
+}
+
+.iloom-couch-items .iloom-couch-image2{
+    margin-top: 70px;
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+/* .iloom-couch-items:nth-child(4),
+.iloom-couch-items:nth-child(8) {
+    margin-right: 0;
+} */
+.iloom-couch-gallery {
+    margin-top: 2em;
+    overflow: auto;
+}
+
+.iloom-couch-items a{
+    color: #312a26;
+    text-decoration: underline;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+/*  iloom-couch-gallery2 */
+
+.iloom-couch-gallery2 .iloom-couch-items {
+    /* width: 24.25%; */
+    width: 45%;
+    float: left;
+    margin-right: 5%;
+    margin-bottom: 1%;
+}
+
+.iloom-couch-gallery2 .iloom-couch-items img{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+/* .iloom-couch-gallery2 .iloom-couch-items:nth-child(2),
+.iloom-couch-items:nth-child(4) {
+    margin-right: 0;
+} */
+
+.iloom-couch-gallery2 .iloom-couch-gallery2 {
+    margin-top: 2em;
+    overflow: auto;
+}
+
+
+/* DINING */
+.iloom-dining-header {
+    margin-top: 30px;
+    text-align: center;
+}
+.iloom-dining-header span {
+    color: #c7a17a;
+    font-style: italic;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+.iloom-dining-header h2 {
+    color: #312a26;
+    text-transform: uppercase;
+}
+.iloom-dining-header hr {
+    height: 2px;
+    width: 25%;
+    background-color: #c7a17a;
+    margin: auto;
+}
+.iloom-dining {
+    width: 85%;
+    margin: auto;
+    overflow: auto;
+}
+.iloom-dining-items {
+    width: 24.25%;
+    float: left;
+    margin-right: 1%;
+    margin-bottom: 1%;
+}
+.iloom-dining-items img{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+.iloom-dining-items:nth-child(4),
+.iloom-dining-items:nth-child(8) {
+    margin-right: 0;
+}
+.iloom-dining-gallery {
+    margin-top: 2em;
+    overflow: auto;
+}
+.iloom-dining-items a{
+    color: #312a26;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+
+
+
+/* holiday */
+.iloom-holiday-header {
+    margin-top: 30px;
+    text-align: center;
+}
+.iloom-holiday-header span {
+    color: #c7a17a;
+    font-style: italic;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+.iloom-holiday-header h2 {
+    color: #312a26;
+    text-transform: uppercase;
+}
+.iloom-holiday-header hr {
+    height: 2px;
+    width: 25%;
+    background-color: #c7a17a;
+    margin: auto;
+}
+.iloom-holiday {
+    /* width: 85%; */
+    width: 80%;
+    margin: auto;
+    overflow: auto;
+    
+}
+.iloom-holiday-items {
+    /* width: 24.25%; */
+    float: left;
+    margin-right: 7%;
+    margin-bottom: 1%;
+    /* display: flex;
+    justify-content: space-between; */
+
+}
+.iloom-holiday-items .iloom-holiday-image1{
+    width: 320px;
+    height: auto;
+    object-fit: cover;
+}
+
+.iloom-holiday-items .iloom-holiday-image2{
+    margin-top: 70px;
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+.iloom-holiday-gallery {
+    margin-top: 2em;
+    overflow: auto;
+}
+
+.iloom-holiday-items a{
+    color: #312a26;
+    text-decoration: underline;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+/*  iloom-holiday-gallery2 */
+
+.iloom-holiday-gallery2 .iloom-holiday-items {
+    /* width: 24.25%; */
+    width: 45%;
+    float: left;
+    margin-right: 5%;
+    margin-bottom: 1%;
+}
+
+.iloom-holiday-gallery2 .iloom-holiday-items img{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+
+
+
+
+/* Candle */
+
+.iloom-candle-header {
+    margin-top: 30px;
+    text-align: center;
+}
+.iloom-candle-header span {
+    color: #c7a17a;
+    font-style: italic;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+.iloom-candle-header h2 {
+    color: #312a26;
+    text-transform: uppercase;
+}
+.iloom-candle-header hr {
+    height: 2px;
+    width: 25%;
+    background-color: #c7a17a;
+    margin: auto;
+}
+.iloom-candle {
+    width: 85%;
+    margin: auto;
+    overflow: auto;
+}
+.iloom-candle-items {
+    width: 24.25%;
+    float: left;
+    margin-right: 1%;
+    margin-bottom: 1%;
+}
+.iloom-candle-items img{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+.iloom-candle-items:nth-child(4n+0)
+{
+    margin-right: 0;
+}
+.iloom-candle-gallery {
+    margin-top: 2em;
+    overflow: auto;
+    
+}
+.iloom-candle-items a{
+    color: #312a26;
+    text-decoration: underline;
+    margin-top: 5px;
+}
+
+
+
+
+/*  */
+
+
+/* .iloom-cart-header {
+    margin-top: 30px;
+    text-align: center;
+}
+.iloom-cart-header span {
+    color: #c7a17a;
+    font-style: italic;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+.iloom-cart-header h2 {
+    color: #312a26;
+    text-transform: uppercase;
+}
+.iloom-cart-header hr {
+    height: 2px;
+    width: 25%;
+    background-color: #c7a17a;
+    margin: auto;
+} */
+.iloom-cart {
+    width: 90%;
+    margin: auto;
+    overflow: auto;
+}
+.iloom-cart-items {
+    width: 25%;
+    float: left;
+    margin-right: 5%;
+    margin-bottom: 1%;
+}
+.iloom-cart-items img{
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+}
+.iloom-cart-items:nth-child(3n+0)
+{
+    margin-right: 0;
+}
+.iloom-cart-gallery {
+    margin-top: 2em;
+    overflow: auto;
+    
+}
+.iloom-cart-items a{
+    color: #312a26;
+    text-decoration: underline;
+    margin-top: 5px;
+}
+
+.col-3{
+    padding-top: 10%;
+    font-family: serif;
+    
+}
+
+.cart-text span{
+    margin-left: 20px;
+}
+
+
+
+/* empty */
+.bi{
+    font-size: 300px;
+}

@@ -1,0 +1,44 @@
+
+
+.iloom {
+    width: 100%;
+    /* margin: auto; */
+    overflow: auto;
+    font-family: serif;
+
+}
+
+.iloom-items {
+    width: 50%;
+    float: left;
+    /* margin-right: 1%;
+    margin-bottom: 1%; */
+}
+
+.iloom-items img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+
+}
+
+.iloom-items .item-information{
+    width: 85%;
+    margin-left: 50px;
+    margin-top: 10em;
+}
+
+.iloom-items .item-information h5{
+    text-decoration: underline;
+}
+
+
+.iloom-items .side-version{
+    width: 100%;
+    height: 1000px;
+    object-fit: cover;
+
+}
+
+
+
